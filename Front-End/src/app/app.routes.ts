@@ -20,7 +20,7 @@ import { SejaPremiumComponent } from './seja-premium/seja-premium.component';
 
 
 export const routes: Routes = [
-    { path: '', component: HomePageComponent },
+    { path: '', component: HomePageComponent, pathMatch: 'full' },
     { path: 'anuncie', component: AnuncieComponent },
     { path: 'cadastro', component: CadastroComponent },
     { path: 'contato', component: ContatoComponent },

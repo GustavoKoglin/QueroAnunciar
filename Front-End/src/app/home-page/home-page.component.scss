@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px;
+}
+
+.custom-btn {
+    /* Adicione estilos específicos para os botões da Home Page aqui */
+    /* Por exemplo: */
+    width: 150px;
+}
+
+.custom-btn img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-home {
+    background-color: #3498db;
+    color: rgb(77, 77, 77);
+}
+
+.btn-vehicle {
+    background-color: #e74c3c;
+    color: rgb(77, 77, 77);
+}
+
+.btn-products {
+    background-color: #2ecc71;
+    color: rgb(77, 77, 77);
+}
+
+.btn-services {
+    background-color: #f39c12;
+    color: rgb(77, 77, 77);
+}
