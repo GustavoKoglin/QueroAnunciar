@@ -1,0 +1,19 @@
+.container-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+    padding: 20px;
+    font-family: Lato;
+    margin-left: 10%;
+
+    label, select{
+        font-size: 20px;
+        margin-right: 10px;
+        border-radius: 7px;
+
+        #tipo-anuncio :hover{
+            background-color: #333;
+        }
+    }
+}
