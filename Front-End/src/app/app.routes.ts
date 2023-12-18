@@ -6,7 +6,7 @@ import { ContatoComponent } from './contato/contato.component';
 import { LoginComponent } from './login/login.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { SaibaMaisComponent } from './saiba-mais/saiba-mais.component';
-import {SuporteComponent} from './suporte/suporte.component';
+import { SuporteComponent } from './suporte/suporte.component';
 import { CadastrarOportunidadeTrabalhoComponent } from './cadastrar-oportunidade-trabalho/cadastrar-oportunidade-trabalho.component';
 import { EfetuarPagamentoComponent } from './efetuar-pagamento/efetuar-pagamento.component';
 import { OportunidadesDeTrabalhoComponent } from './oportunidades-de-trabalho/oportunidades-de-trabalho.component';
@@ -17,7 +17,7 @@ import { VendaVeiculoComponent } from './venda-veiculo/venda-veiculo.component';
 import { VendaProdutoComponent } from './venda-produto/venda-produto.component';
 import { VendaServicoComponent } from './venda-servico/venda-servico.component';
 import { SejaPremiumComponent } from './seja-premium/seja-premium.component';
-
+import { FormularioAnuncioComponent } from './formulario-anuncio/formulario-anuncio.component';
 
 export const routes: Routes = [
     { path: '', component: HomePageComponent, pathMatch: 'full' },
@@ -38,4 +38,5 @@ export const routes: Routes = [
     { path: 'venda-produto', component: VendaProdutoComponent },
     { path: 'venda-servico', component: VendaServicoComponent },
     { path: 'seja-premium', component: SejaPremiumComponent },
+    { path: 'formulario-anuncio', component: FormularioAnuncioComponent },
 ];

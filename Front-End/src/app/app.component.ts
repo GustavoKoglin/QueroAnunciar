@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
@@ -22,6 +23,7 @@ import { VendaVeiculoComponent } from './venda-veiculo/venda-veiculo.component';
 import { VendaProdutoComponent } from './venda-produto/venda-produto.component';
 import { VendaServicoComponent } from './venda-servico/venda-servico.component';
 import { SejaPremiumComponent } from './seja-premium/seja-premium.component';
+import { FormularioAnuncioComponent } from './formulario-anuncio/formulario-anuncio.component';
 
 @Component({
   selector: 'app-root',
@@ -30,7 +32,8 @@ import { SejaPremiumComponent } from './seja-premium/seja-premium.component';
     CommonModule, 
     RouterOutlet, 
     RouterModule, 
-    FormsModule, 
+    FormsModule,
+    ReactiveFormsModule, 
     NavBarComponent,
     HomePageComponent, 
     AnuncieComponent, 
@@ -51,6 +54,7 @@ import { SejaPremiumComponent } from './seja-premium/seja-premium.component';
     VendaProdutoComponent,
     VendaServicoComponent,
     SejaPremiumComponent,
+    FormularioAnuncioComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
