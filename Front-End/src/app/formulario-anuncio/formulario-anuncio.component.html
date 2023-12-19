@@ -18,7 +18,44 @@
                         <option value="produto">Produto</option>
                         <option value="servico">Serviço</option>
                     </select>
-                </div>            
+
+                    <!-- Exibir formulário específicos com base na seleção -->
+                    <div class="container-form tipo-anuncio-container">
+                        <div *ngIf="selectedTipoAnuncio === 'imovel'">
+                            <label for="enderecoImovel">Endereço</label>
+                            <input type="text" name="enderecoImovel" id="enderecoImovel">
+                            <label for="cidadeImovel">Cidade</label>
+                            <input type="text" name="cidadeImovel" id="cidadeImovel">
+                        </div>
+                    
+                        <div *ngIf="selectedTipoAnuncio === 'veiculo'">
+                            <div>
+                                <label for="Marca">Marca</label>
+                                <select name="marcaCarro" id="marcaCarro">
+                                    <option value="ford">Ford</option>
+        
+                                </select>
+                            </div>
+                        </div>
+                    
+                        <div *ngIf="selectedTipoAnuncio === 'produto'">
+                            <label for="tipoProduto">Tipo de Produto</label>
+                            <select name="tipoProduto" id="tipoProduto">
+                                <option value="eletronico">Eletrônico</option>
+                                <option value="eletrodomestico">Eletrodoméstico</option>
+                                <option value="vestuario">Vestuário</option>
+                                <option value="brinquedo">Brinquedo</option>
+                                <option value="decoracao">Decoração</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                    
+                        <div *ngIf="selectedTipoAnuncio === 'servico'">
+                            <label for="tipoServico">Tipo de Serviço</label>
+                            <input type="text" name="tipoServico" id="tipoServico">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>    
     </body>
