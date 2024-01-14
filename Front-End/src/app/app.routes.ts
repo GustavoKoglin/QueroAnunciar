@@ -38,5 +38,5 @@ export const routes: Routes = [
     { path: 'venda-produto', component: VendaProdutoComponent },
     { path: 'venda-servico', component: VendaServicoComponent },
     { path: 'seja-premium', component: SejaPremiumComponent },
-    { path: 'formulario-anuncio', component: FormularioAnuncioComponent },
+    { path: 'form-anuncio', component: FormularioAnuncioComponent },
 ];
