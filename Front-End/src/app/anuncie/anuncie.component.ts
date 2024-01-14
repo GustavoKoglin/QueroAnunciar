@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 export class AnuncieComponent {
   constructor(private router: Router) {}
   goToAnuncieForm(){
+    console.log(this.goToAnuncieForm(), this.router.navigate(['/form-anuncio']));
     this.router.navigate(['/form-anuncio']);
   }
 }

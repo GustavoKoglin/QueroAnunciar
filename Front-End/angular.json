@@ -93,6 +93,9 @@
             },
             "development": {
               "buildTarget": "Front-End:build:development"
+            },
+            "qa": {
+              "buildTarget": "Front-End:build:qa"
             }
           },
           "defaultConfiguration": "development"
